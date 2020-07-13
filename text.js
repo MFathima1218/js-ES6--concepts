@@ -1,6 +1,5 @@
 // let ,const(same as var)
 
-
 console.log("var,let,const");
 
 // example
@@ -37,6 +36,12 @@ const workingday = weeks[1];
 
 console.log(holiday, workingday);
 
+// destructing arrays in Es6
+
+const weeks = ["sun", "mon", "tue", "wed", "fri", "sat"];
+const [a, b, c, d, e, f] = weeks;
+console.log(a);
+
 // destructing objects
 
 const userdata = { username: "muskan", age: 20 };
@@ -51,5 +56,5 @@ const greeting = "happy birthday" + myfriendname;
 console.log(greeting);
 
 // Es6
-const greeting2= 'happy birthday' ${my friend name}'
-console.log(greeting2)
+const greeting2 = "happy birthday ${my friend name}";
+console.log(greeting2);
